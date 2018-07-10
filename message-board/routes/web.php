@@ -14,3 +14,5 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('login', 'Auth\RegisterController@login')->name('login.get');
