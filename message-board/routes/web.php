@@ -16,3 +16,4 @@ Route::get('/', function () {
 });
 
 Route::get('login', 'Auth\RegisterController@login')->name('login.get');
+Route::get('signup', 'Auth\RegisterController@showRegistrationForm')->name('signup.get');
